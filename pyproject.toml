@@ -1,0 +1,18 @@
+[project]
+name = "hertz"
+version = "1.0.0"
+description = "A application for generating binaural beats"
+authors = [
+    {name = "Gabriel Bassoi"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+
+dependencies = [
+    "matplotlib==3.10.8",
+    "numpy==2.2.1",
+    "sounddevice==0.5.1",
+    "pywinstyles==1.8",
+    "sv-ttk==2.6.0",
+]
